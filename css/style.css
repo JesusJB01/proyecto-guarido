@@ -21,7 +21,7 @@ body{
 
 header{
     width: 100%;
-    height: 600px;
+    height: 820px;
     background-color: black;
     background-image: url(/assets/banner.jpg);
     background-repeat: no-repeat;
@@ -30,9 +30,11 @@ header{
 }
 
 nav{
-    height: 100px;
+    height: 130px;
     width: 100%;
     display: flex;
+    background-color: black;
+    opacity: 70%;
     
 }
 
@@ -43,7 +45,9 @@ nav ul{
     height: 90px;
     justify-content:flex-end;
     text-align: center;
-    padding-right: 50px;
+    padding-right: 100px;
+    margin-top: 30px;
+    
 }
 
 nav ul li{
@@ -51,9 +55,9 @@ nav ul li{
     list-style: none;    
     justify-content: ;
     padding-left: 8px;
-    padding-right: 5px;
+    padding-right: 15px;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 10px;
 }
 .logo{
@@ -62,4 +66,54 @@ nav ul li{
 
 .logo img{
     justify-content: flex-start;
+    width: 300px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.titulo-nav{
+    width: 100%;
+    height: 180px;
+    margin-top: 200px;
+   
+    text-align: center;
+    font-size: 50px;
+    font-weight: 5px;
+}
+
+.titulo-nav h1{
+    margin-top: 50px;
+    padding: 10px auto;
+    color: #e75b1e;
+
+}
+
+
+.titulo-nav p {
+font-size: 30px;
+margin-top: 10px;
+margin-bottom: 30px;
+padding: 10px auto;
+color:white;
+}
+
+.menu{
+    background-color: #e75b1e;
+    width: 200px;
+    height: 100px;
+    margin: 120px auto;
+    border: solid 1px white;
+    border-radius: 5px;
+    display: flex;
+}
+.menu a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 65px;
+
 }
